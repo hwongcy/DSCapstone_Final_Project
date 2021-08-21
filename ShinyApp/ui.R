@@ -10,11 +10,8 @@
 library(shiny)
 
 
-
-# Define UI for application that draws a histogram
 shinyUI(fluidPage(
 
-    # Application title
     titlePanel("Predict Next Word"),
     p("Please input a phrase less than 4 words in the text box. Next word will be predicted."),
     p("If next word could not be predicted, <Sorry! Not idea!> will be shown."),
